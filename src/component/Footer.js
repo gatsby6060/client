@@ -9,13 +9,14 @@ function Footer(props) {
                     <a href="/" onClick={(e) => {
                         //     e.preventDefault();
                         //     if (props.contents != null) {
+                        
                         alert(props.contents)
                         // };
-                    }}>{props.contents}</a>
+                    }}>{props.title}</a>
 
                     :
 
-                    <a>{props.contents}</a>
+                    <a>뭔가 에러입니다</a>
             }
 
         </div>

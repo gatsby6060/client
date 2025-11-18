@@ -7,11 +7,11 @@ function App() {
 
         {/*첫 푸터는 푸터입니다 라고 출력함  */}
         {/* 클릭을 하면 '첫번째 푸터' alert창 출력 */}
-        <Footer contents="푸터입니다"></Footer>
+        <Footer title = "푸터입니다" contents="첫번째 푸터"></Footer>
 
         {/* 두번째 푸터는 '서프푸터입니다' 라고 출력 */}
         {/* Footer 내용을 클릭을 하면 '두번째 푸터' alert창 출력 */}
-        <Footer contents="서브푸터입니다"></Footer>
+        <Footer title = "서프푸터입니다"  contents="두번째 푸터"></Footer>
     </>)
 }
 
