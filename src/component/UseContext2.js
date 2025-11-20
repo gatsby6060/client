@@ -16,7 +16,9 @@ function Content1() {
                 {/* 헤더의 '로그인/로그아웃'버튼 클릭시 */}
                 {/* 이곳의 내용으로 로그인되었습니다 / 로그아웃 되었습니다. */}
                 {/* 2개의 문구가 왔다갔다 하도록 */}
-                {param.isloginout ? <div>로그인 되었습니다.</div> : <div>로그아웃 되었습니다.</div>}
+                {param.isloginout ? 
+                <div style={{ color: 'blue' }}>로그인 되었습니다.</div> : 
+                <div style={{ color: 'red' }}>로그아웃 되었습니다.</div>}
 
 
             </div>
