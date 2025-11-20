@@ -4,19 +4,26 @@ function Footer(props) {
         <div>
 
             {
-                props.contents != null ?
+                // props.contents != null ?
 
-                    <a href="/" onClick={(e) => {
-                        //     e.preventDefault();
-                        //     if (props.contents != null) {
+                //     <a href="/" onClick={(e) => {
+                //         //     e.preventDefault();
+                //         //     if (props.contents != null) {
                         
-                        alert(props.contents)
-                        // };
-                    }}>{props.title}</a>
+                //         alert(props.contents)
+                //         // };
+                //     }}>{props.title}</a>
 
-                    :
+                //     :
 
-                    <a>뭔가 에러입니다</a>
+                //     <a>뭔가 에러입니다</a>
+
+                <a href="/" onClick={(e)=>{
+                    e.preventDefault();
+                    props.fnAlert();
+                }}>
+                    {props.contents}
+                </a>
             }
 
         </div>

@@ -1,4 +1,16 @@
-.App {
+body{
+  margin : 10px;
+}
+
+table, tr, td, th{
+  border : 1px, solid, black;
+  border-collapse: collapse;
+  padding : 5px, 10px;
+  text-align: center;
+
+}
+
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +47,6 @@
   to {
     transform: rotate(360deg);
   }
-}
+} */
+
+
